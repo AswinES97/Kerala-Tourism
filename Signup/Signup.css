@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+.container-fluid {
+  padding: 0%;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+/* background */
+.container-fluid {
+  position: absolute;
+  background-image: linear-gradient(
+    to top,
+    rgba(2, 129, 8, 0.966),
+    rgb(7, 117, 81)
+  );
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* nav */
+.navbar {
+  position: relative;
+  box-shadow: 5px 5px 10px #1a010150;
+  background-color: rgba(70, 70, 70, 0.212);
+}
+.navbar-brand {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+/* welcome */
+h1 {
+  font-size: 20px;
+}
+.welcome1 {
+  position: relative;
+  float: left;
+  height: 40vh;
+  width: 60vh;
+  color: black;
+  margin-left: 18vh;
+  margin-top: 20vh;
+  animation-name: anime1;
+  animation-duration: 2s;
+}
+@keyframes anime1 {
+  0% {
+    color: rgba(255, 255, 0, 0);
+    top: 200px;
+  }
+  100% {
+    color: rgb(0, 0, 0);
+    top: 0px;
+  }
+}
+.para {
+  animation-name: para1;
+  animation-duration: 3s;
+  margin-left: 5px;
+}
+@keyframes para1 {
+  0% {
+    color: rgba(255, 255, 0, 0);
+    top: 200px;
+  }
+  100% {
+    color: rgb(0, 0, 0);
+    top: 0px;
+  }
+}
+
+/* form */
+.form2 {
+  position: relative;
+  color: rgba(255, 255, 255, 0.911);
+  /* border: 2px solid rgba(137, 43, 226, 0.157); */
+  height: 100vh;
+  width: 60vh;
+  padding-top: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-bottom: 1vh;
+  margin-top: 5vh;
+  background-color: rgba(49, 49, 49, 0.486);
+  border-radius: 30px;
+  font-weight: 400;
+}
+.row {
+  line-height: 10px;
+}
+.form-control-sm {
+  height: 1vh;
+  border-radius: 10px;
+}
+.form-select {
+  height: 5vh;
+  border-radius: 10px;
+  font-size: 10px;
+}
+.btn {
+  border-radius: 10px;
+  background-color: wheat;
+}
+.form-label {
+  margin-left: 5px;
+}
+.form-select {
+  margin-left: 5px;
+}
+.form-check-label {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 688px) {
+  .welcome1 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}

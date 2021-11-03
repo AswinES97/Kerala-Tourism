@@ -1,0 +1,52 @@
+html body {
+  scroll-behavior: smooth;
+  padding: 0%;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+body{
+  background-image: url("https://unsplash.com/photos/t-3qo5bGC0Q/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM1OTM5NzMz&force=true&w=1920");
+  
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.header1 {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+/* card */
+.card{
+  background-color: rgb(32, 32, 32);
+  border:1rem solid rgb(32, 32, 32);
+  border-radius: 1rem;
+  color:wheat;
+
+}
+.card:hover{
+  box-shadow: 5px 5px 5px black;
+}
+.card-img-top{
+  border-radius: 1rem;
+}
+
+/* footer */
+.footer1{
+  height: 30vh;
+  background-color:rgb(0, 0, 0);
+  text-align: center;
+}
+.fab{
+  padding: 2em;
+  padding-top: 4em;
+  color: rgba(245, 222, 179, 0.774);
+}

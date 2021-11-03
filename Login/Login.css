@@ -1,0 +1,65 @@
+html body {
+  /*  */
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  background-image: linear-gradient(
+    to top,
+    rgba(2, 129, 8, 0.966),
+    rgb(7, 117, 81)
+  );
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.fontweig {
+  font-weight: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  position: relative;
+  box-shadow: 5px 5px 10px #1a010150;
+  background-color: rgba(0, 0, 0, 0.144);
+}
+.navbar-brand {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+.formm {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(128, 128, 128, 0.013);
+  margin-top: 15vh;
+}
+
+.form1 {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.438);
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.198);
+  border-radius: 5px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.footerclass {
+  position: relative;
+  height: 100px;
+  bottom: 0;
+  background-color: rgba(39, 0, 44, 0.938);
+  margin-top: 10vh;
+  padding: 0;
+}
