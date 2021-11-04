@@ -1,32 +1,36 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Merriweather", serif;
-}
-
-.container-fluid {
+  scroll-behavior: smooth;
   padding: 0%;
   margin: 0;
-  width: auto;
-  height: auto;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
 }
-
-/* background */
-.container-fluid {
-  position: absolute;
+body {
   background-image: linear-gradient(
     to top,
     rgba(2, 129, 8, 0.966),
-    rgb(7, 117, 81)
-  );
-  width: 100%;
-  height: auto;
-  background-size: cover;
+    rgb(19, 58, 45))
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* nav */
-.navbar {
+.header1 {
   position: relative;
+  width: 100%;
+}
+.s1 {
+  position: relative;
+}
+.navbar {
   box-shadow: 5px 5px 10px #1a010150;
   background-color: rgba(70, 70, 70, 0.212);
 }
@@ -34,18 +38,18 @@
   background-color: rgba(0, 0, 0, 0.055);
 }
 
-/* welcome */
+/* abt and form */
 h1 {
   font-size: 20px;
 }
 .welcome1 {
   position: relative;
   float: left;
-  height: 40vh;
+  height: 32vh;
   width: 60vh;
   color: black;
-  margin-left: 18vh;
-  margin-top: 20vh;
+  margin-left: 12rem;
+  margin-top: 10rem;
   animation-name: anime1;
   animation-duration: 2s;
 }
@@ -76,54 +80,123 @@ h1 {
 }
 
 /* form */
-.form2 {
-  position: relative;
-  color: rgba(255, 255, 255, 0.911);
-  /* border: 2px solid rgba(137, 43, 226, 0.157); */
-  height: 100vh;
-  width: 60vh;
-  padding-top: 5vh;
-  padding-left: 5vh;
-  padding-right: 5vh;
-  padding-bottom: 1vh;
-  margin-top: 5vh;
-  background-color: rgba(49, 49, 49, 0.486);
-  border-radius: 30px;
-  font-weight: 400;
-}
-.row {
-  line-height: 10px;
-}
-.form-control-sm {
-  height: 1vh;
-  border-radius: 10px;
-}
-.form-select {
-  height: 5vh;
-  border-radius: 10px;
-  font-size: 10px;
-}
-.btn {
-  border-radius: 10px;
-  background-color: wheat;
-}
-.form-label {
-  margin-left: 5px;
-}
-.form-select {
-  margin-left: 5px;
-}
-.form-check-label {
-  margin-top: 8px;
+.frmin{
+  border-radius: .4em;
+  margin-bottom: 1em;
 }
 
-@media screen and (max-width: 688px) {
-  .welcome1 {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
+.form-select{
+  margin-left: .2em;
+  height: 2em;
+  padding: .2em;
+  padding-left: .4em;
+}
+
+.form2 {
+  background-color: rgba(0, 255, 255, 0.068);
+  color: rgba(204, 204, 204, 0.829);
+  width: 25rem;
+  padding: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left: 7rem;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width:1024px) {
+.form2 {
+
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+ .welcome1 {
+     margin-left: 5rem;
+     margin-right: 1rem;
+    } 
+}
+@media only screen and (max-width:768px) {
+  .welcome1{
+    margin-left: 4rem;
+     margin-right: 1rem;
+
   }
+  .form2 {
+     margin-left: 2rem;
+     margin-right: 1rem;
+     width: 20rem;
+     font-size: 13px;
+      padding: 2rem;
+    } 
+}
+
+
+@media only screen and (max-width:425px) {
+  .welcome1{
+    margin-top: 10rem;
+    margin-left: 7rem;
+    margin-right: 1rem;
+
+  }
+  .form2 {
+     margin-left: 3.3rem;
+     margin-right: 1rem;
+     margin-top: 3rem;
+     width: 20rem;
+     font-size: 13px;
+      padding: 2rem;
+    } 
+}
+
+@media only screen and (max-width:375px) {
+  .welcome1{
+    margin-top: 7rem;
+    margin-left: 4rem;
+    /* margin-right: 1rem; */
+
+  }
+  .form2 {
+     margin-left: 2rem;
+     /* margin-right: 1rem; */
+     margin-top: 3rem;
+     width: 19rem;
+     font-size: 13px;
+      padding: 2rem;
+    } 
+}
+
+
+
+
+@media only screen and (max-width:320px) {
+  .welcome1{
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+    padding-left: 2rem;
+    /* margin-right: 1rem; */
+
+  }
+  .form2 {
+     margin-left: 1.8rem;
+     /* margin-right: 1rem; */
+     margin-top: 1rem;
+     width: 16rem;
+     font-size: 12px;
+      padding: 2rem;
+    } 
+}
+
+
+
+/* footer */
+.footer1 {
+  height: 30vh;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+.fab {
+  padding: 1em;
+  padding-top: 4em;
+  color: rgba(245, 222, 179, 0.774);
 }
