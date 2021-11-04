@@ -91,9 +91,8 @@ a{
   background-size: cover;
   
 }
-.pic3{
-  p
-}
+/* .pic3{ }*/
+
 .detail{
   padding: 7em;
   background-color:rgba(0, 0, 0, 0.334);;
@@ -130,6 +129,8 @@ a{
   .inside{
      padding: 2em;
      padding-top: 2.5em;
-
-   }
+    }
+  .carous{
+    height: 14rem;
+  }
     }
