@@ -1,8 +1,8 @@
 html body {
-  /*  */
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: "Merriweather", serif;
+  font-family: 'Ubuntu', sans-serif;
   background-image: linear-gradient(
     to top,
     rgba(2, 129, 8, 0.966),
@@ -12,22 +12,29 @@ html body {
 .container-fluid {
   padding: 0;
   margin: 0;
-  height: 100%;
-  width: 100%;
-}
+ 
+} 
 .fontweig {
   font-weight: 0;
   text-decoration: none;
 }
-
-.navbar {
+/* nav */
+.header1 {
   position: relative;
+  width: 100%;
+}
+.s1 {
+  position: relative;
+}
+.navbar {
   box-shadow: 5px 5px 10px #1a010150;
-  background-color: rgba(0, 0, 0, 0.144);
+  background-color: rgba(70, 70, 70, 0.212);
 }
 .navbar-brand {
   background-color: rgba(0, 0, 0, 0.055);
 }
+
+
 .formm {
   position: relative;
   justify-content: center;
@@ -55,11 +62,16 @@ html body {
   color: rgba(255, 255, 255, 0.822);
 }
 
-.footerclass {
-  position: relative;
-  height: 100px;
-  bottom: 0;
-  background-color: rgba(39, 0, 44, 0.938);
-  margin-top: 10vh;
-  padding: 0;
+
+/* footer */
+.footer1{
+  margin-top: 2em;
+  height: 30vh;
+  background-color:rgb(0, 0, 0);
+  text-align: center;
+}
+.fab{
+  padding: 2em;
+  padding-top: 4em;
+  color: rgba(245, 222, 179, 0.774);
 }
