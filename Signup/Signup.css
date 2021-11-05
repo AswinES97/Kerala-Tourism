@@ -101,7 +101,7 @@ h1 {
   border-radius: 2rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
-  margin-left: 7rem;
+  margin-left: 6rem;
   margin-right: 2rem;
 }
 
@@ -140,60 +140,34 @@ h1 {
 }
 }
 
-@media only screen and (max-width:767px){
-  .head2{
-    font-size: 40px;
-  }
-.welcome1 {
-  position: relative;
-  text-align: center;
-  height:auto;
-  width: auto;
-  color: black;
-  margin-left: 30%;
-  margin-top:30%; 
-}
-
-.form2 {
-  background-color: rgba(0, 255, 255, 0.068);
-  color: rgba(204, 204, 204, 0.829);
-  width: 20rem;
-  padding: 3rem;
-  border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2rem;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-  margin-left: 30%;
-  margin-right: 30%
-}
-}
-
 @media only screen and (max-width:500px){
   .head2{
     font-size: 30px;
   }
- 
-  }
 .welcome1 {
+  font-size: 8px;
   position: relative;
   text-align: center;
   height:auto;
   width: auto;
   color: black;
-  margin-left: 20%;
+  margin-left: 30%;
   margin-top:30%; 
 }
+
 .form2 {
   background-color: rgba(0, 255, 255, 0.068);
   color: rgba(204, 204, 204, 0.829);
-  width: 90%;
-  padding: 3rem;
+  width: 15rem;
+  padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 2rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
- 
-  }
+  margin-left: 23%;
+  margin-right: 25%;
+}
+}
 
 
 /* footer */
