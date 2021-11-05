@@ -6,11 +6,34 @@ html body {
   line-height: 1.5;
 }
 /* header */
-.header1 {
+/* .header1 {
   position: fixed;
   width: 100%;
   z-index: 2;
+} */
+
+/* nav */
+.header1 {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
+.s1 {
+  position: relative;
+}
+.navbar {
+  box-shadow: 5px 5px 10px #1a010150;
+  background-color: rgba(2, 2, 2, 0.322);
+}
+.navbar-brand {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+
+
+
+
+
 
 /* carousal */
 .container {
