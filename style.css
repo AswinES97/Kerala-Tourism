@@ -16,14 +16,13 @@ html body {
 .header1 {
   position: fixed;
   width: 100%;
-  z-index: 1;
 }
 .s1 {
   position: relative;
 }
 .navbar {
   box-shadow: 5px 5px 10px #1a010150;
-  background-color: rgba(2, 2, 2, 0.322);
+  background-color: rgba(2, 2, 2, 0.335);
 }
 .navbar-brand {
   background-color: rgba(0, 0, 0, 0.055);
