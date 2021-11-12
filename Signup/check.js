@@ -12,17 +12,20 @@ function strength(){
             space.style.backgroundColor = 'green'
             // space.innerHTML= 'Strong'
             space.style.width = '80%'
+            pass1.style.border="1px solid green"
 
             
         } else if(mediumPassword.test(pass1.value)){
             space.style.backgroundColor = 'orange'
             // space.innerHTML = 'Medium'
             space.style.width = "52%"
+            pass1.style.border="1px solid orange"
 
         } else{
             space.style.backgroundColor = 'red'
             // space.innerHTML = 'Weak'
             space.style.width = "26%"
+            pass1.style.border="1px solid red"
         }
 
 }

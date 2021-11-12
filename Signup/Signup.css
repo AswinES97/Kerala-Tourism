@@ -101,6 +101,7 @@ h1 {
 .form-control{
   position: relative;
   
+  
 }
 .form1{
   padding-top:5px;
@@ -131,13 +132,12 @@ h1 {
 
 .form1 #checkspace{
   position:absolute;
-  margin-top: 5px;
+  margin-top: 10px;
   background-color: rgba(255, 0, 0, 0);
   width: 80%;
-  height: 15px;
+  height: 10px;
   border-radius: 10px;
 }
-
 /* viewport */
 
 

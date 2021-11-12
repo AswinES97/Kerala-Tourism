@@ -35,7 +35,7 @@ function validate(){
         Eerr[3].style.visibility='visible';
         Eerr[2].style.visibility='visible';
         vis[1].style.visibility="hidden";
-         password.style.border="5px solid red"
+       
     }
     if(password.value===''){
         Eerr[4].style.visibility='visible';
