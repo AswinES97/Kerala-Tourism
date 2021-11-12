@@ -41,7 +41,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <form class="form1 ms-auto">
+                <form class=" ms-auto">
                     <span class="ms-auto"></span>
                     <ul class="navbar-nav ms-3 me-5 mb-lg-0 fontweig ">
                         <li class="nav-item">
@@ -79,39 +79,42 @@
 
                 
                 <!-- form -->
-            <form class="row g-0 form2">
-                <div class="col-md-12 col-12">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control form-control-sm frmin" id="inputEmail4">
+            <form class="row g-0 form" action="" onsubmit="return validate()">
+                <div class="col-md-12 col-12 form1">
+                    <label for="inputEmail4" class="form-label">Email <sup>*</sup></label>
+                    <input type="email" class="form-control form-control-sm " id="inputEmail4">
+                    <i class="fas fa-check-circle vis"></i>
+                    <i class="fas fa-exclamation-triangle Eerr"></i>
+                    <small class="Eerr">Enter a valid email address</small>
                 </div>
-                <div class="col-md-12">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control form-control-sm frmin" id="inputPassword4">
+                <div class="col-md-12 form1">
+                    <label for="inputPassword4" class="form-label">Password <sup>*</sup></label>
+                    <input type="password" class="form-control form-control-sm " id="inputPassword4" onkeyup="strength()">
+                    <div id="checkspace"></div>
+                    <i class="fas fa-check-circle vis"></i>
+                    <i class="fas fa-exclamation-triangle Eerr"></i>
+                    <small class="Eerr">sdsdadas</small>
                 </div>
-                <div class="col-md-12">
-                    <label for="inputName" class="form-label">Username</label>
-                    <input type="text" class="form-control form-control-sm frmin" id="inputAddress" placeholder="">
+                <div class="col-md-12 form1">
+                    <label for="inputName" class="form-label">Confirm Password <sup>*</sup></label>
+                    <input type="password" class="form-control form-control-sm " id="confirmPassword" placeholder="">
+                    <i class="fas fa-check-circle vis"></i>
+                    <i class="fas fa-exclamation-triangle Eerr"></i>
+                    <small class="Eerr">Password do not match</small>
                 </div>
-                <div class="col-md-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control form-control-sm frmin" id="inputAddress" placeholder="Apartment, studio, or floor">
+                <div class="col-md-12 form1">
+                    <label for="inputAddress" class="form-label">Phone No <sup>*</sup></label>
+                    <input type="tel" class="form-control form-control-sm" id="phoneno">
+                    <i class="fas fa-check-circle  vis"></i>
+                    <i class="fas fa-exclamation-triangle Eerr"></i>
+                    <small class="Eerr">Enter a valid number</small>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 form1">
                     <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control form-control-sm frmin" id="inputCity">
+                    <input type="text" class="form-control form-control-sm " id="inputCity">
                 </div>
-                <div class="col-md-5">
-                <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select  frmin">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control form-control-sm frmin" id="inputZip">
-                </div>
-                <div class="col-12">
+               
+                <div class="col-12 form1">
                     <div class="form-check frmin">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">
@@ -120,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <button type="submit " class="btn btn-light frmin">Sign in</button><br>
+                    <button type="submit " class="btn btn-light frmin">Sign Up</button><br>
                 </div>
                 <div><p>Already have account? <a href="../Login/Login.html">Log In</a></p></div>
             </form>
@@ -150,4 +153,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/cd8b1d0510.js" crossorigin="anonymous"></script>
+    <script src="Signup.js"></script>
+    <script src="check.js"></script>
 </body>

@@ -67,28 +67,27 @@
     
     <div class="formm">
       <div class="container-fluid">
-        <div class="row g-0 p-0">
-          
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-2"></div>
-          
-    <form class="form1 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-8">
+        <div class="row g-0 p-0 pt-5 pb-5 justify-content-center">
+          <div class="col-7 col-sm-5 col-md-4 col-lg-3">
+    <form class="form1"  onsubmit="return validate()" action="/index.html">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text text-white-75">We'll never share your email with anyone else.</div>
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" >
+    <label id="emailHelp" class="form-text text-white-75"></label>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
+     <label id="pass1"></label>
   </div>
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+    <label class="form-check-label" for="exampleCheck1" >Check me out</label >
   </div>
-  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="submit" class="btn btn-success" >Log In</button>
 </form>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-2"></div>
+</div>
 </div>
 </div>
     <!-- /form -->
@@ -104,7 +103,8 @@
     <!-- /footer -->
     
 
-</script>
+
     <script src="https://kit.fontawesome.com/cd8b1d0510.js" crossorigin="anonymous"></script>
+    <script src="Login.js"></script>
 </body>
 </html>

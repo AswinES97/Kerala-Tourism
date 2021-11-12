@@ -80,32 +80,63 @@ h1 {
 }
 
 /* form */
-.frmin{
+.form-control1{
+  position: relative;
   border-radius: .4em;
   margin-bottom: 1em;
 }
 
-.form-select{
-  margin-left: .2em;
-  height: 2em;
-  padding: .2em;
-  padding-left: .4em;
-}
-
-.form2 {
-  background-color: rgba(0, 255, 255, 0.068);
+.form {
+  background-color: rgba(29, 2, 2, 0.219);
   color: rgba(204, 204, 204, 0.829);
   width: 25rem;
   padding: 3rem;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2rem;
+  /* border-radius: 10px; */
   margin-top: 5rem;
   margin-bottom: 3rem;
   margin-left: 6rem;
   margin-right: 2rem;
 }
+.form-control{
+  position: relative;
+  
+}
+.form1{
+  padding-top:5px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.form1 small{
+  color: red;
 
+} 
+.form1 i{
+  position:absolute;
+  top:43px;
+  right: 11px;
+}
+.fa-check-circle{
+   color: rgb(21, 148, 21);
+}
+.fa-exclamation-triangle{
+  color: rgb(180, 17, 17);
+}
+.Eerr{
+  visibility:hidden;
+}
+.vis{
+  visibility: hidden;
+}
 
+.form1 #checkspace{
+  position:absolute;
+  margin-top: 5px;
+  background-color: rgba(255, 0, 0, 0);
+  width: 80%;
+  height: 15px;
+  border-radius: 10px;
+}
 
 /* viewport */
 
@@ -126,7 +157,7 @@ h1 {
   animation-duration: 2s;
 }
 
-.form2 {
+.form{
   background-color: rgba(0, 255, 255, 0.068);
   color: rgba(204, 204, 204, 0.829);
   width: 20rem;
@@ -155,7 +186,7 @@ h1 {
   margin-top:30%; 
 }
 
-.form2 {
+.form{
   background-color: rgba(0, 255, 255, 0.068);
   color: rgba(204, 204, 204, 0.829);
   width: 15rem;
