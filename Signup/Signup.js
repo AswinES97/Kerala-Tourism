@@ -13,7 +13,7 @@ function validate(){
     let regexpasswrd=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     let phnno=/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/;
     let e,p,c,no;
-    if(regexemail.test(email.value.trim())){
+    if(regexemail.test(email.value)){
         e=true;
         vis[0].style.visibility="visible";
         Eerr[0].style.visibility='hidden';
@@ -30,12 +30,12 @@ function validate(){
         vis[1].style.visibility="visible";
         Eerr[2].style.visibility='hidden';
         Eerr[3].style.visibility='hidden';
-
+       
     }else{
         Eerr[3].style.visibility='visible';
         Eerr[2].style.visibility='visible';
         vis[1].style.visibility="hidden";
-       
+         password.style.border="5px solid red"
     }
     if(password.value===''){
         Eerr[4].style.visibility='visible';
