@@ -7,9 +7,12 @@
 }
 body {
   background-image: linear-gradient(
-    to top,
-    rgba(2, 129, 8, 0.966),
-    rgb(19, 58, 45))
+    
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url("https://unsplash.com/photos/OFzTf6iZb2Y/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM2OTExMjY4&force=true&w=1920");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a {
   text-decoration: none;
@@ -47,7 +50,7 @@ h1 {
   float: left;
   height: 32vh;
   width: 60vh;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-left: 12rem;
   margin-top: 10rem;
   animation-name: anime1;
@@ -55,11 +58,11 @@ h1 {
 }
 @keyframes anime1 {
   0% {
-    color: rgba(255, 255, 0, 0);
+    color: rgba(96, 167, 90, 0.171);
     top: 200px;
   }
   100% {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 205, 205);
     top: 0px;
   }
 }
@@ -74,7 +77,7 @@ h1 {
     top: 200px;
   }
   100% {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     top: 0px;
   }
 }
@@ -87,8 +90,8 @@ h1 {
 }
 
 .form {
-  background-color: rgba(29, 2, 2, 0.219);
-  color: rgba(204, 204, 204, 0.829);
+  background-color: rgba(29, 2, 2, 0.548);
+  color: rgb(255, 255, 255);
   width: 25rem;
   padding: 3rem;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -145,12 +148,20 @@ h1 {
 
 @media only screen and (max-width:991px){
   
+  body {
+  background-image: linear-gradient(
+    
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url("https://unsplash.com/photos/VH0DZBfo5Wg/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM2OTEwOTA4&force=true&w=1920");
+    background-size: 100% 100%;
+}
 .welcome1 {
   position: relative;
   float: left;
   height: 32vh;
   width: 60vh;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-left: 5rem;
   margin-top: 10rem;
   animation-name: anime1;
@@ -158,12 +169,13 @@ h1 {
 }
 
 .form{
-  background-color: rgba(0, 255, 255, 0.068);
+   background-color: rgba(29, 2, 2, 0.548);
+
   color: rgba(204, 204, 204, 0.829);
   width: 20rem;
   padding: 3rem;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   margin-top: 5rem;
   margin-bottom: 3rem;
   margin-left: 2rem;
@@ -172,6 +184,15 @@ h1 {
 }
 
 @media only screen and (max-width:500px){
+   body {
+  background-image: linear-gradient(
+    
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url("https://unsplash.com/photos/VH0DZBfo5Wg/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM2OTEwOTA4&force=true&w=1920");
+    background-size: 190% 100%;
+    background-repeat: no-repeat;
+}
   .head2{
     font-size: 30px;
   }
@@ -181,18 +202,19 @@ h1 {
   text-align: center;
   height:auto;
   width: auto;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-left: 30%;
   margin-top:30%; 
 }
 
 .form{
-  background-color: rgba(0, 255, 255, 0.068);
+   background-color: rgba(29, 2, 2, 0.548);
+
   color: rgba(204, 204, 204, 0.829);
   width: 15rem;
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   margin-top: 5rem;
   margin-bottom: 3rem;
   margin-left: 23%;
